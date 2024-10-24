@@ -2,11 +2,6 @@ import React, { useState } from "react";
 import "./Form.css";
 
 const LoginForm = () => {
-  const [count, setcount] = useState(0);
-
-  const add = () => setcount((prev) => prev + 1);
-  const subtract = () => setcount((prev) => prev - 1);
-
   const submit = () => {
     alert("Thank you!");
   }

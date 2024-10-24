@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.main {
+  width: 100vw;
+  height: 95vh;
+  background-color: rgba(255, 255, 255, 0.856);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}

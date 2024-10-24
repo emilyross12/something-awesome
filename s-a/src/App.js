@@ -1,12 +1,15 @@
 import "./App.css";
-import Counter from "./Counter";
+import Header from "./Header";
 import LoginForm from "./LoginForm";
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
-      <LoginForm />
+      <Header />
+      <div className="main">
+        <LoginForm />
+      </div>
     </div>
   );
 }

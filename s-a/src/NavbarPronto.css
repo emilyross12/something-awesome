@@ -1,0 +1,8 @@
+.navbar-pronto {
+  display: flex;
+  padding-left: 2vw;
+  flex-direction: row;
+  justify-content: left;
+  align-content: center;
+  width: 100%;
+}
