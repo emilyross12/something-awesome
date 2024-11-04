@@ -1,3 +1,4 @@
+### Run instructions:
 Install flask: pip install flask
 
 On MAC/LINUX:
@@ -7,6 +8,7 @@ On WINDOWS:
 
 Run server: flask run
 
+### Example Curl Requests
 curl --header "Content-Type: application/json" \
   --request GET \
   http://localhost:5000/healthcheck
