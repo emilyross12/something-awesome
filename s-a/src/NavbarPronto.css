@@ -6,3 +6,13 @@
   align-content: center;
   width: 100%;
 }
+
+.heading-item {
+  color: black;
+  margin-right: 10%;
+  text-decoration: none;
+}
+
+.heading-item:hover {
+  text-decoration: underline;
+}

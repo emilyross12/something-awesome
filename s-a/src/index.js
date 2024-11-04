@@ -9,9 +9,10 @@ import reportWebVitals from './reportWebVitals';
 import ReactDOM from 'react-dom';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 //import LoginForm from './LoginForm';
+import { useEffect, useState } from 'react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+/*root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
@@ -24,6 +25,13 @@ root.render(
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
+);*/
+
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
